@@ -39,13 +39,11 @@ base64 -d <<< $ZSHRC_BASE64_ENCODED > $HOME/.zshrc
 
 
 # Setup .zshrc file for root
-if which su &>$OUTPUT_PIPE; then
-    echo "- Setup .zshrc file for root ..."
+echo "- Setup .zshrc file for root ..."
 
-    mkdir -p $HOME/.suroot &>$OUTPUT_PIPE
-    backup_if_exists "File" $HOME/.suroot/.zshrc
-    base64 -d <<< $ZSHRC_BASE64_ENCODED > $HOME/.suroot/.zshrc
-fi
+mkdir -p $HOME/.suroot &>$OUTPUT_PIPE
+backup_if_exists "File" $HOME/.suroot/.zshrc
+base64 -d <<< $ZSHRC_BASE64_ENCODED > $HOME/.suroot/.zshrc
 
 
 # Setup modules for zsh
