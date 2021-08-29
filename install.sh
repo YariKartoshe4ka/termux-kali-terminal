@@ -75,5 +75,5 @@ mv $TMPDIR/ttf/FiraCode-Regular.ttf $HOME/.termux/font.ttf &>$OUTPUT_PIPE
 
 # End installation process
 echo "================================================"
-echo "      Installation process completed!"
+echo "        Installation process completed!"
 echo "Please, re-open Termux to see your new terminal!"

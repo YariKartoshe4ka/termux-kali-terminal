@@ -20,3 +20,22 @@ curl https://raw.githubusercontent.com/YariKartoshe4ka/termux-kali-terminal/mast
 ```
 
 After that, the installation script will be launched, wait for it to finish and re-open Termux to see the new design
+
+
+#### Uninstall
+
+Uninstallation process is similar to the installation process: just download the `uninstall.sh` script and run it, for example, with this command:
+
+```sh
+curl https://raw.githubusercontent.com/YariKartoshe4ka/termux-kali-terminal/master/uninstall.sh | bash
+```
+
+
+#### Root
+
+Script also enables design for root user and if you device has been rooted you can simply run shell with these commands:
+
+```sh
+pkg install tsu # Run this command once!
+sudo zsh
+```
