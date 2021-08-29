@@ -5,11 +5,18 @@ Script for decoration Termux as Kali Linux terminal
 
 #### What includes
 
-1. ![ZSH](https://github.com/zsh-users/zsh) - default shell of Kali Linux since 2020.4 
-2. ![zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - plugin for zsh that comes with Kali by default
-3. ![zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - another plugin for zsh that comes with Kali by default
-4. ![FiraCode](https://github.com/tonsky/FiraCode) - wonderful font used by Kali by default
+1. [ZSH](https://github.com/zsh-users/zsh) - default shell of Kali Linux since 2020.4 
+2. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - plugin for zsh that comes with Kali by default
+3. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - another plugin for zsh that comes with Kali by default
+4. [FiraCode](https://github.com/tonsky/FiraCode) - wonderful font used by Kali by default
 
+
+#### Preview
+
+|              Before              |              After              |
+|----------------------------------|---------------------------------|
+| ![](docs/images/before-user.jpg) | ![](docs/images/after-user.jpg) |
+| ![](docs/images/before-root.jpg) | ![](docs/images/after-root.jpg) |
 
 #### Install
 
